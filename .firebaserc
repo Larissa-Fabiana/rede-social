@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "rede-social-ba31d"
+    "default": "rede-social-781a3",
+    "staging": "rede-social-781a3"
   }
 }
