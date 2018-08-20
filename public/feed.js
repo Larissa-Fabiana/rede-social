@@ -22,8 +22,12 @@ $(document).ready(function(){
     snapshot.forEach(function(childSnapshot){
       var childKey = childSnapshot.key;
       var childData = childSnapshot.val();
-      var data = document.createElement("small");
-      data.textContent = moment().format('hour').fromNow();
+      var data = document.createElement("span");
+      console.log(data);
+      // moment.locale('pt-BR');
+      // data.textContent = moment().format('hour').fromNow();
+      // moment("20111031", "YYYYMMDD").fromNow(); // 7 years ago
+      data.innerHTML = 'oooooooooi';
       createPost(childData.text, childKey);
     });
   });
