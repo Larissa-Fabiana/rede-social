@@ -92,9 +92,5 @@ $(document).ready(function(){
           </li>
        `);
       })
-      // if
-      // for Each
-      // snashot childSnapshot
-      // ref data base.once.("value").then
     }
   }
